@@ -3,7 +3,7 @@ library(shiny)
 library(stringi)
 library(officer)
 
-# Define server logic required to draw a histogram
+# Define server logic 
 shinyServer(function(input, output,session) {
    
   #read the file using library(officer)
